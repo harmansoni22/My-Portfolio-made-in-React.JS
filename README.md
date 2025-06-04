@@ -1,12 +1,43 @@
-# React + Vite
+# 🚀 Harman Soni's Portfolio (Built with React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio — rebuilt using React.js and Vite for lightning-fast performance and modular structure.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- Vite
+- JavaScript
+- CSS Modules
+- VS Code
 
-## Expanding the ESLint configuration
+## 📁 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Smooth routing (React Router)
+- Mobile-first responsive design
+- Reusable components (Navbar, Footer, Contact page, etc.)
+- Clean folder structure
+
+## 🧠 Purpose
+
+To level up my React skills by converting my old HTML/CSS portfolio into a modern framework-based one — and prep for full-scale production apps like OmniStart.
+
+## 🛣 Coming Soon
+
+- Dark/Light mode toggle
+- Deploy via GitHub Pages or Netlify
+- More detailed About, Projects, and Contact pages
+
+## 🌐 Live Preview (Coming Soon)
+
+Stay tuned…
+
+---
+
+### ✨ Author
+
+**Harman Soni**  
+16-year-old developer, JEE aspirant, founder of OmniStart & CLCI  
+[GitHub](https://github.com/harmansoni22)
+
+---
+
