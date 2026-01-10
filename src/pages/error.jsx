@@ -1,10 +1,48 @@
 import React from "react";
+import ErrorContent from "../components/ErrorContent";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => (
-    <div className="container mt-5">
-        <h1 className="text-center">404 - Page Not Found</h1>
-        <p className="text-center">Sorry, the page you are looking for does not exist.</p>
-    </div>
+    <>
+        <div 
+            style={{ 
+                backgroundColor: '#2e2e2eff', 
+                height: '100vh', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                justifyContent: 'center', 
+                alignItems: 'center',
+                margin: 0,
+                padding: 0 
+            }}
+        >
+            <ErrorContent
+                baseIntensity={0.2}
+                hoverIntensity={0.5}
+                enableHover={true}
+                style={{
+                    backgroundColor: '#000000ff',
+                    textAlign: 'center',
+                    margin: '20px',
+                    padding: '20px'
+                }}
+            >
+                Error 404:
+            </ErrorContent>
+
+            <ErrorContent
+                baseIntensity={0.2}
+                hoverIntensity={0.5}
+                enableHover={true}
+            >
+                Page Not Found
+            </ErrorContent>
+{/* 
+                <Link to="/" key='home'>
+                    Go to Home Page
+                </Link> */}
+        </div>
+    </>
 );
 
 export default ErrorPage;

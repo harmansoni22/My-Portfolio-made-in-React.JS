@@ -6,7 +6,13 @@ import Footer from '../components/Footer.jsx';
 const About = () => {
     return (
         <>
-            
+            <div className="container">
+                <div className="row mt-5">
+                    <div className='text-center'>
+                        <h1 className='mb-4'>About Me</h1>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

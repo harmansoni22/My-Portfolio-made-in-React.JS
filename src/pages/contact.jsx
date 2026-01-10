@@ -21,8 +21,13 @@ const ContactMe = () => {
             <div className="container mt-5">
                 <h2 className="text-center mb-4">Contact Me</h2>
                 {submitted ? (
-                    <div className="alert alert-success" role="alert">
-                        Thank you for your message! I will get back to you soon.
+                    <div>
+                        <div className='container'>
+                            <div className="alert alert-success" role="alert">
+                                Thank you for your message! I will get back to you soon.
+                            </div>
+                            <div className='alery alert'></div>
+                        </div>
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit}>
@@ -56,6 +61,9 @@ const ContactMe = () => {
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                                 required
+                                style={{
+                                    transition: 'all 0.3s ease',
+                                }}
                             ></textarea>
                             <label htmlFor="message" className="form-label">Message</label>
                         </div>
